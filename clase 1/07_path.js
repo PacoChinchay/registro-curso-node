@@ -11,5 +11,5 @@ console.log(base)
 const filename = path.basename('/tmp/paco-secret-files/password.txt', '.txt')
 console.log(filename)
 
-const extension = path.extname("/tmp/paco-secret-files/password.txt")
+const extension = path.extname('/tmp/paco-secret-files/password.txt')
 console.log(extension)

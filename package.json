@@ -1,25 +1,21 @@
 {
-  "name": "curso-node",
+  "name": "aprendiendo-node",
   "version": "1.0.0",
-  "description": "el mejor curso de node, gracias midu <3",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "curso",
-    "node",
-    "nodejs"
-  ],
-  "author": "paco chinchay",
-  "license": "ISC",
-  "dependencies": {
-    "picocolors": "1.0.0"
-  },
   "devDependencies": {
     "standard": "^17.1.0"
   },
+  "scripts": {
+    "dev:1": "node --watch ./clase-4/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "eslintConfig": {
     "extends": "standard"
+  },
+  "dependencies": {
+    "express": "4.18.2"
   }
 }
